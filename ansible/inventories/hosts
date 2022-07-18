@@ -1,0 +1,2 @@
+[serve]
+localhost ansible_user=apple
