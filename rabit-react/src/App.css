@@ -1,0 +1,23 @@
+.App{
+  height: 100%;
+}
+.navigations{
+  /* margin-bottom: 40px; */
+  padding-bottom:95px
+}
+.gridding{
+  display:grid;
+  grid-template-columns:[col1] 250px [col2] 1fr [col-end];
+  grid-template-areas: 
+                       "b c c "
+                       "b c c ";
+}
+
+.grid__item2{
+  grid-area:b;
+  height: 100%;
+}
+.grid__template3{
+  grid-area:c;
+  height: 100%;
+}

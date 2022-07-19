@@ -1,0 +1,25 @@
+.sidebar {
+  padding: 10px;
+  height: 100%;
+}
+.images {
+  background-image: url("../images/man.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130px;
+  border-radius: 20px;
+  padding: 25px;
+}
+.long {
+  width: 70%;
+}
+.sidebar__items {
+  color: white;
+}
+.items__data {
+    margin-top:10px;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
